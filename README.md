@@ -51,16 +51,16 @@ Type `exit` anytime to quit.
 
 ## File Strucuture 
 text-summarizer/
-│── summarizer.py          # Main interactive script
-│── requirements.txt       # Dependencies
+│── summarizer.py          # Main interactive script for summarization
+│── requirements.txt       # Project dependencies for easy setup
 │── README.md              # Project documentation
+│── LICENSE                # MIT License for open-source usage
+│── .gitignore             # Files/folders to ignore in Git
 │
-├── utils/                 # Optional helper functions
-│    └── text_loader.py
-│
-└── examples/              # Sample input/output
-     ├── sample_input.txt
-     └── sample_output.txt
+└── examples/              # Sample input/output for testing
+     ├── sample_input.txt  # Example input text
+     └── sample_output.txt # Corresponding summarized output
+
 
 ## 🎯 Accuracy of Summarizer
 
