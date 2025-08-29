@@ -50,17 +50,18 @@ Summary: Ella the elephant helped a baby bird and became known for helping other
 Type `exit` anytime to quit.
 
 ## File Strucuture 
+```text
 text-summarizer/
-│── summarizer.py          # Main interactive script for summarization
-│── requirements.txt       # Project dependencies for easy setup
-│── README.md              # Project documentation
-│── LICENSE                # MIT License for open-source usage
-│── .gitignore             # Files/folders to ignore in Git
-│
+├── summarizer.py          # Main interactive script for summarization
+├── requirements.txt       # Project dependencies for easy setup
+├── README.md              # Project documentation
+├── LICENSE                # MIT License for open-source usage
+├── .gitignore             # Files/folders to ignore in Git
 └── examples/              # Sample input/output for testing
-     ├── sample_input.txt  # Example input text
-     └── sample_output.txt # Corresponding summarized output
+    ├── sample_input.txt   # Example input text
+    └── sample_output.txt  # Corresponding summarized output
 
+```
 
 ## 🎯 Accuracy of Summarizer
 
